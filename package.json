@@ -1,0 +1,17 @@
+{
+  "name": "22009-plugin",
+  "version": "1.0.1",
+  "github": "https://github.com/lava081/22009-plugin",
+  "gitee": "https://gitee.com/lava081/22009-plugin",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lava081/22009-plugin.git"
+  },
+  "author": "lava081",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/lava081/22009-plugin/issues"
+  },
+  "homepage": "https://github.com/lava081/22009-plugin#readme"
+}
