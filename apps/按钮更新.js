@@ -1,7 +1,7 @@
 import { exec, execSync } from 'child_process'
 import fs from 'fs'
 const Path = './plugins/Lain-plugin/plugins/button/button'
-const url = 'https://gitee.com/lava081/button'
+const url = 'https://gitee.com/zzwh12/button'
 export class UpdateButton extends plugin {
   constructor () {
     super({
