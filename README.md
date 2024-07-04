@@ -9,7 +9,10 @@ Gitee：
 ```
 git clone --depth=1 https://gitee.com/zzwh12/22009-plugin ./plugins/22009-plugin
 ```
-
+Github：
+```
+git clone --depth=1 https://github.com/zzwh12/22009-plugin ./plugins/22009-plugin
+```
 ## 特别鸣谢
 
 以下排名不分先后
