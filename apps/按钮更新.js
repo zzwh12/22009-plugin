@@ -34,7 +34,7 @@ export class UpdateButton extends plugin {
       if (this.e.msg.includes('强制')) { execSync('git fetch && git reset --hard', { cwd: Path }) }
       exec(cmd, { cwd: Path, stdio: 'inherit' }, (output, error) => {
         if (error) {
-          if (error.match(/Already up to date\./)) { this.reply('岩浆正在偷懒') } else {
+          if (error.match(/Already up to date\./)) { this.reply('当前按钮已是最新') } else {
             this.reply('按钮更新结束')
           }
         } else { return this.reply(`更新错误：${output}`) }
