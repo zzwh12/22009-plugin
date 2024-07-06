@@ -6,7 +6,7 @@ async function protectLain () {
   if (process.platform == 'win32') {
     cmd = 'attrib +R +S Lain-plugin /S'
   } else {
-    cmd = 'sudo chattr +i Lain-plugin'
+    cmd = 'sudo chattr -i Lain-plugin'
   }
   exec(cmd, { cwd: join(process.cwd(), 'plugins'), stdio: 'ignore' }, () => { })
 }
