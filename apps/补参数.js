@@ -83,7 +83,6 @@ export class giveNickname extends plugin {
         this.e.user_id = user.qq
         this.e.author.id = user.qq
       }
-      this.e.group.getMemberMap = async () => await this.getMemberMap(e.group_id)
     }
     return false
   }
