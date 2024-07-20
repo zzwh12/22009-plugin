@@ -44,13 +44,13 @@ async function detectTrssRepositories () {
   const _paths = []
   const promises = []
   if (fs.existsSync(join(process.cwd(), 'plugins', 'TRSS-Plugin'))) {
-    _paths.push(join(process.cwd, 'plugins', 'TRSS-Plugin'))
+    _paths.push(join(process.cwd(), 'plugins', 'TRSS-Plugin'))
   }
   if (fs.existsSync(join(process.cwd(), 'plugins', 'yenai-plugin', '.github', 'ISSUE_TEMPLATE', '‮'))) {
-    _paths.push(join(process.cwd, 'plugins', 'yenai-plugin'))
+    _paths.push(join(process.cwd(), 'plugins', 'yenai-plugin'))
   }
   if (fs.existsSync(join(process.cwd(), 'plugins', 'useless-plugin'))) {
-    _paths.push(join(process.cwd, 'plugins', 'useless-plugin'))
+    _paths.push(join(process.cwd(), 'plugins', 'useless-plugin'))
   }
   if (process.platform == 'win32') {
     for (const _path of _paths) {
