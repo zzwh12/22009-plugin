@@ -12,6 +12,7 @@ export class UpdateButton extends plugin {
       rule: [
         {
           reg: '^#(强制)?按钮(更新|下载)$',
+          permission: 'master',
           fnc: 'UpdateButton'
         }
       ]
