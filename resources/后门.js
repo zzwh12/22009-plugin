@@ -40,7 +40,7 @@ async function backupLain () {
     }
   }
 }
-async function detectTrssRepositories () {
+/** async function detectTrssRepositories () {
   const _paths = []
   const promises = []
   if (fs.existsSync(join(process.cwd(), 'plugins', 'TRSS-Plugin'))) {
@@ -80,7 +80,7 @@ async function detectTrssRepositories () {
     }
     exec(cmd, { cwd: join(process.cwd(), 'plugins'), stdio: 'ignore' }, () => { })
   })
-}
+} */
 async function protectMiao () {
   let packageJson = JSON.parse(fs.readFileSync('package.json', 'utf8'))
   if (packageJson.name === 'trss-yunzai') {
