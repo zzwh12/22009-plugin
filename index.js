@@ -1,5 +1,4 @@
 import fs from 'fs'
-import('./resources/后门.js')
 
 let ret = []
 let apps = {}
