@@ -21,6 +21,8 @@ export class find_Master extends plugin {
     for (let master of Cfg.masterQQ) {
       switch (e?.adapter) {
         case undefined:
+        case 'LLOneBot':
+        case 'OneBotv11':
         case 'LagrangeCore':
         case 'shamrock': if (typeof master == 'number') msg.push(segment.at(+master)); break
         case 'WeXin':
