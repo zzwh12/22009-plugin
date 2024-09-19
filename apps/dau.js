@@ -20,7 +20,8 @@ export class dau extends plugin {
       rule: [
         {
           reg: /^#?dau$/i,
-          fnc: 'dau_read'
+          fnc: 'dau_read',
+          permission: 'master'
         }
       ]
     })
